@@ -1,9 +1,4 @@
-//주석
-//    = 한줄주석
-/*    =여러줄 주석 시작
-안로 ㅣㅇㄴ러ㅙㄷ
-밑에것은 여러줄 주석 종료
- */
+
 
 
 import java.lang.reflect.Member;
@@ -14,9 +9,16 @@ public class Java_Study_01 {                   //클래스 선언 자바에서 �
     void = 리턴 형식, 리턴값이 0을 의미
     string[]  스트링 형식의 배열 args는 배열의 이름
 
- * */
+  */
         System.out.println("Hello world"); //출력하는 방법
         System.out.print("이것은 줄바꿈이 안됩니다");
+
+        System.out.print("안녕");
+        System.out.print("하세요");
+        System.out.println("반갑");
+        System.out.println("습니다");
+
+
 //  변수에는 자료형과 같은 예약어는 쓰면 안됨
         //정수형 자료형들
         byte by = 120;  // 가장 작은 단위로 8비트로 구성된 1바이트를 기본으로함
@@ -61,6 +63,8 @@ public class Java_Study_01 {                   //클래스 선언 자바에서 �
             //int i =0 시작하는 부분, ;로 구분, i<= 10 조건으로 이부분이 만족하면 실행, i++은  증감식 ++ 는 +1을 의미함
             System.out.println("반복" + i);
         }
+
+
         /*
             if (조건문) {
                 <문장1>;
