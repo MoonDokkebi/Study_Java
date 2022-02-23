@@ -2,7 +2,7 @@
 package Quiz;
 import java.util.Scanner;
 
-public class Quiz01 {
+public class Quiz01_NOX {
     public static void main(String[] args) {
         int line,choice;
         String wordlengh;
@@ -30,7 +30,6 @@ public class Quiz01 {
             System.out.println();
         }
     }
-
     static void WordStar(String wordlengh){
         for(int i = 0; i < wordlengh.length(); i++) {
             for (int j = 0; j <= i; j++) {
@@ -39,5 +38,6 @@ public class Quiz01 {
             System.out.println();
         }
     }
+
 }
 
