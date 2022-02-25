@@ -30,6 +30,7 @@ public class Quiz01_NOX {
             System.out.println();
         }
     }
+
     static void WordStar(String wordlengh){
         for(int i = 0; i < wordlengh.length(); i++) {
             for (int j = 0; j <= i; j++) {
