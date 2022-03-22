@@ -1,6 +1,5 @@
 package claendar;
 
-import java.sql.SQLOutput;
 import java.util.Scanner;
 
 public class Calendar {
@@ -44,13 +43,18 @@ public class Calendar {
 //        System.out.println("15 16 17 18 19 20 21");
 //        System.out.println("22 23 24 25 26 27 28");
     }
-    public void printCalendar(int year, int month){
+    public void printCalendar(int year, int month,int weekday){
         System.out.printf("   <<%4d 년 %3d 월>>\n", year, month);
         printSampleCalendar(year,month);
+        //첫 요일에따라 띄어쓰기
+        for(int i=0; i<weekday; i++){
+            System.out.println("   ");
+        }
     }
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         Calendar cal = new Calendar();
+
 
         //숫자를 입력받아 해당하는 달의 최대 일 수를 출력하는 프로그램
 
